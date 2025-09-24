@@ -1,0 +1,6 @@
+import{a,r as c,c as u}from"./_plugin-vue2_normalizer-XKpYxUsH.js";function f(o,t){for(var n=0;n<t.length;n++){const e=t[n];if(typeof e!="string"&&!Array.isArray(e)){for(const r in e)if(r!=="default"&&!(r in o)){const i=Object.getOwnPropertyDescriptor(e,r);i&&Object.defineProperty(o,r,i.get?i:{enumerable:!0,get:()=>e[r]})}}}return Object.freeze(Object.defineProperty(o,Symbol.toStringTag,{value:"Module"}))}var l={exports:{}};/*!
+ * Bootstrap-select v1.14.0-beta3 (https://developer.snapappointments.com/bootstrap-select)
+ *
+ * Copyright 2012-2022 SnapAppointments, LLC
+ * Licensed under MIT (https://github.com/snapappointments/bootstrap-select/blob/master/LICENSE)
+ */(function(o){(function(t,n){t===void 0&&window!==void 0&&(t=window),o.exports?o.exports=n(c()):n(t.jQuery)})(u,function(t){(function(n){n.fn.selectpicker.defaults={noneSelectedText:"Nothing selected",noneResultsText:"No results match {0}",countSelectedText:function(e,r){return e==1?"{0} item selected":"{0} items selected"},maxOptionsText:function(e,r){return[e==1?"Limit reached ({n} item max)":"Limit reached ({n} items max)",r==1?"Group limit reached ({n} item max)":"Group limit reached ({n} items max)"]},selectAllText:"Select All",deselectAllText:"Deselect All",multipleSeparator:", "}})(t)})})(l);var s=l.exports;const d=a(s),p=f({__proto__:null,default:d},[s]);export{p as d};

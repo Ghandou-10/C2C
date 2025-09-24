@@ -1,0 +1,24 @@
+/*
+Template Name: Vhato - Responsive Bootstrap 5 Chat App
+Author: Themesbrand
+Version: 1.0.0
+Website: https://Themesbrand.com/
+Contact: Themesbrand@gmail.com
+File: Custom Bootstrap Css File
+*/
+
+//Core files
+@import "~bootstrap5/scss/functions";
+@import "~bootstrap5/scss/variables";
+@import "variables";
+@import "variables-dark";
+@import "~bootstrap5/scss/bootstrap";
+
+@import "custom/components/root";
+@import "custom/components/reboot";
+@import "custom/components/backgrounds";
+@import "custom/components/badge";
+@import "custom/components/buttons";
+@import "custom/components/accordion";
+@import "custom/components/modals";
+@import "custom/components/dropdown";
